@@ -14,6 +14,9 @@ public class MainView extends VerticalLayout {
 
     public MainView(@Autowired MessageBean bean) {
         this.add(new MonacoElement());
+        Button button = new Button("Add another one...",
+                e -> this.add(new MonacoElement()));
+        add(button);
     }
 
 }
