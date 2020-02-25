@@ -3,9 +3,10 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@polymer/polymer": "3.2.0",
-    "@webcomponents/webcomponentsjs": "^2.2.10",
     "@vaadin/flow-deps": "./target/frontend",
-    "monaco-editor": "^0.19.3"
+    "@webcomponents/webcomponentsjs": "^2.2.10",
+    "monaco-editor": "^0.19.3",
+    "monaco-element": "^0.1.6"
   },
   "devDependencies": {
     "style-loader": "1.1.3",
